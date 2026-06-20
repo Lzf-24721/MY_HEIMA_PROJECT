@@ -39,3 +39,4 @@ Thumbs.db
 *.safetensors
 *.pt
 *.ckpt
+.vscode/

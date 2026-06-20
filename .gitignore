@@ -1,0 +1,41 @@
+# ── 训练产出 (可重新生成) ──
+runs/
+cache/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# ── 运行时临时文件 ──
+tmp_joblib/
+*.tmp
+*.log
+
+# ── Jupyter / IDE ──
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── HuggingFace 缓存 ──
+~/.cache/huggingface/
+
+# ── 大模型文件 (单独管理) ──
+*.bin
+*.pkl
+*.safetensors
+*.pt
+*.ckpt

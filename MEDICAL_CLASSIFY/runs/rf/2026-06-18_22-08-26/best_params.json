@@ -1,0 +1,15 @@
+{
+  "saved_at": "2026-06-18T22:15:24.428383",
+  "model_type": "RandomForest",
+  "best_params": {
+    "n_estimators": 250,
+    "min_samples_split": 20,
+    "min_samples_leaf": 2,
+    "max_features": 0.5,
+    "max_depth": null
+  },
+  "cv_score": 0.5355979825103787,
+  "n_features": 5000,
+  "n_train": 7273,
+  "n_classes": 13
+}

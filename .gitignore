@@ -1,6 +1,9 @@
-# ── 训练产出 (可重新生成) ──
-runs/
-cache/
+# ── 训练产出 (仅忽略根目录下的) ──
+/runs/
+/cache/
+MEDICAL_CLASSIFY/runs/**/*.bin
+MEDICAL_CLASSIFY/runs/**/*.safetensors
+MEDICAL_CLASSIFY/runs/**/*.pkl
 
 # ── Python ──
 __pycache__/
